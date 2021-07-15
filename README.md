@@ -244,7 +244,8 @@ Best practice is to always declare variables with `const` and then, if you later
 realize that the value has to change over the course of your program, circle
 back to change it to `let`.
 
-***NOTE***: With the update to Chrome 80, `let` is now able to be redeclared in the Chrome console (and only your console). Keep this in mind when you're testing out your code! For more on this, check out [this article.](https://dev.to/cooldashing24/chrome-now-allows-for-let-and-class-redeclarations-in-the-console-2m0f)
+
+***NOTE ON CHROME 80***: With the update to Chrome 80, `let` is now able to be redeclared in the Chrome console (and only your console). Keep this in mind when you're testing out your code! For more on this, check out [this article.](https://dev.to/cooldashing24/chrome-now-allows-for-let-and-class-redeclarations-in-the-console-2m0f)
 
 ## Resources
 
@@ -254,12 +255,11 @@ back to change it to `let`.
 - [MDN — `let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 - [MDN — `const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 - [JavaScript ES6+: `var`, `let`, or `const`?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
-
+- [Google Chrome 80 Updates](https://dev.to/cooldashing24/chrome-now-allows-for-let-and-class-redeclarations-in-the-console-2m0f)
 
 [valid variable names]: https://mathiasbynens.be/notes/javascript-identifiers-es6
 [reserved words]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Reserved_keywords_as_of_ECMAScript_2015
 [future reserved words]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Future_reserved_keywords
-[Google Chrome 80 Updates](https://dev.to/cooldashing24/chrome-now-allows-for-let-and-class-redeclarations-in-the-console-2m0f)
 
 ## Conclusion
 
